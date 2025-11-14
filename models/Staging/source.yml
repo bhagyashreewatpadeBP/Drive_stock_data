@@ -1,0 +1,9 @@
+sources:
+  - name: landing
+    database: DRIVE_UDP
+    schema: AIRBYTE_STOCK_DATA
+
+    tables:
+      - name: AUTOGRAB
+        identifier: AUTOGRAB
+     
