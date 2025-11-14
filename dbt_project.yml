@@ -40,7 +40,8 @@ models:
     # Applies to all files under models/example/
     staging:
       +schema: staging
+    Intermediate:
+      +schema: Intermediate
     marts:
       +schema: marts
-    example:
-      +materialized: table
+
